@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bwie.jingdong">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="utils.MyAppliction"
+        android:process=":remote"
+        android:allowBackup="true"
+        android:icon="@mipmap/jingdong_login"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WelcomActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="mineFragment.view.Denglu_yemian" />
+        <activity android:name="mineFragment.activity.Denglu_yemian" />
+        <activity android:name="mineFragment.activity.Register_yemian" />
+        <activity android:name="homeFragment.activity.SelectActivity" />
+        <activity android:name="homeFragment.activity.XiangqingActivity"></activity>
+    </application>
+
+</manifest>

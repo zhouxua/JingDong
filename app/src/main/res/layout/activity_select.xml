@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="homeFragment.activity.SelectActivity">
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#F9F9F9"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/call_back"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_browser_nav_back"
+            />
+        <EditText
+            android:id="@+id/select_goods"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:hint="笔记本"
+            />
+        <Button
+            android:id="@+id/select"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="搜索"/>
+    </LinearLayout>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rEcyclerview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

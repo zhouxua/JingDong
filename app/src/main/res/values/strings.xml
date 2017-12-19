@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">京东</string>
+
+    <string name="user_phone">15726649472</string>
+    <string name="user_xin">商品：0</string>
+    <string name="user_dianpu">店铺：0</string>
+    <string name="user_jiao">我的足迹</string>
+
+    <string name="user_pay">未付款</string>
+    <string name="user_drive">待发货</string>
+    <string name="user_receipt">待收货</string>
+    <string name="user_comment">待评价</string>
+    <string name="user_refund">退款/货</string>
+
+    <string name="user_money">预存款</string>
+    <string name="user_card">充值卡</string>
+    <string name="user_vouchers">代金券</string>
+    <string name="user_red">红包</string>
+    <string name="user_integral">积分</string>
+
+    <string name="user_address">收货地址</string>
+    <string name="user_setting">退出设置</string>
+
+    <string name="user_login">手机号/会员名/邮箱</string>
+    <string name="user_password">请输入密码</string>
+    <string name="user_denglu">登录</string>
+    <string name="user_zhuce">新用户注册</string>
+
+    <string name="user_user">请输入用户名</string>
+    <string name="user_pass">请输入密码</string>
+    <string name="user_passtwo">输入确认密码</string>
+    <string name="user_email">请填写邮箱</string>
+    <string name="user_zh">注册</string>
+
+    <string name="user_denglu_btn">登录</string>
+    <string name="user_zhuce_btn">注册</string>
+</resources>

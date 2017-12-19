@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/lll"
+        android:layout_width="match_parent"
+        android:background="#fd5003"
+        android:gravity="center_vertical"
+        android:layout_height="60dp">
+
+        <!--头部布局-->
+        <ImageView
+            android:id="@+id/erweima"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_normal_code"/>
+        <EditText
+            android:id="@+id/sousuokuang"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:focusable="false"
+            android:layout_height="35dp"
+            android:background="#db3001"
+            android:textColorHint="#fff"
+            android:hint="搜索一下"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:drawableRight="@mipmap/ic_action_search"
+            />
+        <ImageView
+            android:id="@+id/xiaoxi"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_normal_message"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
